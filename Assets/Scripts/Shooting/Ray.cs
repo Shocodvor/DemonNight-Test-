@@ -21,7 +21,7 @@ public class RayH
 
                 Vector3 aim = new Vector3(_aim.position.x*100f,_aim.position.y*100f,0); 
 
-                Ray ray = new Ray(_target.transform.position, _target.transform.position - aim);
+                Ray ray = new Ray(_target.transform.position, _target.transform.position + aim);
 
                 
 
